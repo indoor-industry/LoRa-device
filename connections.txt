@@ -1,0 +1,34 @@
+Peripheral,Function,ESP32 GPIO,Notes
+GPS UART1,TX → ESP32 RX,43,Dedicated UART1
+GPS UART1,RX ← ESP32 TX,44,Dedicated UART1
+GPS PPS,Input,2,Optional precise timing; no pull-down
+GPS RESET,Output,7,Optional, wired to header
+GPS STANDBY,Output,8,Optional, wired to header
+ILI9341,CS,33,Shared SPI bus
+ILI9341,DC,34,Shared SPI bus
+ILI9341,RST,17,LCD reset (safe, non-strapping)
+ILI9341,LED / Backlight,46,Direct to module (internal driver assumed)
+Touch controller,CS,36,Shared SPI bus
+Touch controller,IRQ,47,Touch interrupt
+SD Card,CS,35,Shared SPI bus
+BME280,CS,37,Shared SPI bus
+RA-01 (LoRa),CS,40,LoRa chip select
+RA-01 (LoRa),DIO0,48,LoRa IRQ (RX/TX done) — required
+RA-01 (LoRa),DIO1,5,Optional LoRa IRQ (non-strapping)
+RA-01 (LoRa),RST,18,LoRa reset
+Buzzer,Base,21,Via S8050 transistor
+SPI Bus,SCLK,14,Shared SPI bus
+SPI Bus,MOSI,13,Shared SPI bus
+SPI Bus,MISO,12,Shared SPI bus
+Expansion Header,SPI CS2,38,External SPI device
+Expansion Header,SPI CS3 / GPIO,41,Optional SPI CS or GPIO
+Expansion Header,GPIO / IRQ,39,Digital input / interrupt
+Expansion Header,GPIO / Analog,42,Digital or analog input
+Expansion Header,UART extra TX,—,GPIO5 repurposed for LoRa DIO1
+Expansion Header,UART extra RX,—,Free to reassign if needed
+Reserved,Flash / QSPI,6,Internally connected to flash
+Reserved,Flash / QSPI,9,Not connected
+Reserved,Flash / QSPI,10,Not connected
+Reserved,Flash / QSPI,11,Not connected
+GPIO0,Boot / Flash button,0,Pull-up to 3.3 V, button to GND
+USB,USB D+ / D−,19 / 20,Native USB interface
