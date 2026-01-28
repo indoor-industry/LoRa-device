@@ -523,7 +523,7 @@
       "plot": "production/gerbers",
       "pos_files": "production/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "LoRa-device.step",
       "svg": "",
       "vrml": ""
     },

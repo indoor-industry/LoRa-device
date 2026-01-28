@@ -589,7 +589,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x12_Pin"
+		(symbol "Connector:Conn_01x11_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -605,8 +605,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x12_Pin"
-				(at 0 -17.78 0)
+			(property "Value" "Conn_01x11_Pin"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -631,7 +631,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x12, script generated"
+			(property "Description" "Generic connector, single row, 01x11, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -666,7 +666,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x12_Pin_1_1"
+			(symbol "Conn_01x11_Pin_1_1"
 				(rectangle
 					(start 0.8636 12.827)
 					(end 0 12.573)
@@ -780,17 +780,6 @@
 				(rectangle
 					(start 0.8636 -12.573)
 					(end 0 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -15.113)
-					(end 0 -15.367)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -922,18 +911,6 @@
 				(polyline
 					(pts
 						(xy 1.27 -12.7) (xy 0.8636 -12.7)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -15.24) (xy 0.8636 -15.24)
 					)
 					(stroke
 						(width 0.1524)
@@ -1134,24 +1111,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -15.24 180)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1807,6 +1766,176 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6759,6 +6888,185 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_JLCPCB-Extended:RF, Connector, U.FL"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "U.FL"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:IPEX-SMD_BWIPX-1-001E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208151830_BAT-WIRELESS-BWU-FL-IPEX1_C5137195.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5137195"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RF, Connector, U.FL_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RF, Connector, U.FL_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_JLCPCB-Resistors:0402,0Ω"
 			(pin_numbers
 				(hide yes)
@@ -9794,6 +10102,12 @@
 		(uuid "53cc7eb0-54d1-47ed-90b3-b7f443df0082")
 	)
 	(junction
+		(at 102.87 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57b8c8ec-998e-401e-a0e1-c41fd4519b56")
+	)
+	(junction
 		(at 175.26 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10032,10 +10346,6 @@
 		(uuid "5ddbf0b8-0b61-439c-b379-591cbfe185f8")
 	)
 	(no_connect
-		(at 64.77 80.01)
-		(uuid "95c1ffa4-cf8b-4602-9f21-e827e52f6061")
-	)
-	(no_connect
 		(at 254 118.11)
 		(uuid "9b1322b3-b4de-4e66-94a3-945a68430a63")
 	)
@@ -10130,6 +10440,16 @@
 			(type solid)
 		)
 		(uuid "06f292ad-0b08-4b87-a5ba-59e4cc02db7a")
+	)
+	(wire
+		(pts
+			(xy 102.87 158.75) (xy 102.87 160.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0726b3a7-ca73-4722-95b7-db9c2617e38b")
 	)
 	(wire
 		(pts
@@ -10293,7 +10613,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 68.58) (xy 111.76 85.09)
+			(xy 111.76 74.93) (xy 111.76 85.09)
 		)
 		(stroke
 			(width 0.1524)
@@ -10413,16 +10733,6 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 49.53) (xy 419.1 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a23e483-c736-4f70-9121-1ceff0422312")
-	)
-	(wire
-		(pts
 			(xy 208.28 120.65) (xy 203.2 120.65)
 		)
 		(stroke
@@ -10523,7 +10833,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 153.67) (xy 102.87 156.21)
+			(xy 102.87 153.67) (xy 102.87 158.75)
 		)
 		(stroke
 			(width 0.1524)
@@ -10610,6 +10920,16 @@
 			(type default)
 		)
 		(uuid "24f95cdc-8045-4ff4-bd7e-7420a39d1408")
+	)
+	(wire
+		(pts
+			(xy 64.77 80.01) (xy 72.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26598095-a848-4f70-a8e0-0aa111484a45")
 	)
 	(wire
 		(pts
@@ -10923,7 +11243,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 52.07) (xy 408.94 52.07)
+			(xy 402.59 52.07) (xy 419.1 52.07)
 		)
 		(stroke
 			(width 0)
@@ -11933,16 +12253,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 69.85) (xy 106.68 68.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8007366d-9600-4554-82d8-b939ae1cc72d")
-	)
-	(wire
-		(pts
 			(xy 33.02 143.51) (xy 85.09 143.51)
 		)
 		(stroke
@@ -12923,6 +13233,16 @@
 	)
 	(wire
 		(pts
+			(xy 402.59 49.53) (xy 408.94 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f656c7-ead6-43ce-aa5e-468b796afb18")
+	)
+	(wire
+		(pts
 			(xy 353.06 36.83) (xy 353.06 35.56)
 		)
 		(stroke
@@ -13683,16 +14003,6 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 72.39) (xy 408.94 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb42af77-3d85-4d4b-bc3f-f460b30e5bc2")
-	)
-	(wire
-		(pts
 			(xy 179.07 102.87) (xy 179.07 101.6)
 		)
 		(stroke
@@ -13990,28 +14300,6 @@
 		(uuid "16b127fc-d02e-4905-ba81-6e669479dd27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.0452 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_CPU"
-		(shape input)
-		(at 408.94 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1724f1d1-a8af-4b99-88d3-29a4457c9812")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 420.3919 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15277,6 +15565,28 @@
 	)
 	(global_label "VDD_CPU"
 		(shape input)
+		(at 408.94 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a23a9b61-3e98-47de-8d46-df594b9ec519")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 420.3919 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_CPU"
+		(shape input)
 		(at 220.98 76.2 270)
 		(fields_autoplaced yes)
 		(effects
@@ -16045,6 +16355,28 @@
 			)
 		)
 	)
+	(global_label "IO37"
+		(shape input)
+		(at 72.39 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3070238-bcff-46e9-9013-02175e7cb1a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.7295 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VSYS"
 		(shape input)
 		(at 410.21 241.3 270)
@@ -16190,28 +16522,6 @@
 		(uuid "fcf971ea-d144-46da-87ca-96663d42ba46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 276.5795 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO37"
-		(shape input)
-		(at 408.94 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fda664ab-d50c-4d2c-9dc1-88e3a405cde1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 416.2795 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17580,104 +17890,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x12_Pin")
-		(at 397.51 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1030c5b2-7fe8-4ccf-8656-4cbf538f0da2")
-		(property "Reference" "J3"
-			(at 398.145 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x12_Pin"
-			(at 398.145 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
-			(at 397.51 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 397.51 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x12, script generated"
-			(at 397.51 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "46f572b8-4158-4a55-b5a9-9d01f91b675c")
-		)
-		(pin "12"
-			(uuid "642d4896-24b4-4a62-b376-9a997eafb5ae")
-		)
-		(pin "8"
-			(uuid "0b605eee-3236-4825-9b38-797eb6340ad4")
-		)
-		(pin "7"
-			(uuid "318c8b11-7e14-4389-badb-3125ca18710e")
-		)
-		(pin "11"
-			(uuid "00ecf333-714c-4597-913e-ac303ebf1fe8")
-		)
-		(pin "3"
-			(uuid "50fb7653-2b56-41a4-b5d1-4d3657852c69")
-		)
-		(pin "10"
-			(uuid "73f9aadf-a478-4d63-a574-d02353e60154")
-		)
-		(pin "2"
-			(uuid "1546c42d-ac9d-42ca-a191-8f65419f432f")
-		)
-		(pin "1"
-			(uuid "b4161fcb-edf3-4d2c-a215-15fe20038a4c")
-		)
-		(pin "9"
-			(uuid "406ddf2b-00e8-471d-b3bb-f68b529b85cc")
-		)
-		(pin "5"
-			(uuid "a2280299-e570-4253-98a4-0b3366adbac9")
-		)
-		(pin "6"
-			(uuid "685eec3d-4031-4b58-84eb-0c0b43e8b82a")
-		)
-		(instances
-			(project ""
-				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 95.25 175.26 0)
 		(unit 1)
@@ -17781,83 +17993,6 @@
 			(project "LoRa-device"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "DNP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Antenna_Chip")
-		(at 100.33 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1264ea29-86b9-45fd-92d1-fb7404a21490")
-		(property "Reference" "AE3"
-			(at 94.488 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna"
-			(at 93.726 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
-			(at 97.79 146.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 146.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" ""
-			(at 100.33 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "09b5d53c-b793-43a9-8e1e-402f5a2b0860")
-		)
-		(pin "1"
-			(uuid "7843b34a-4b51-493b-98b3-2846f8e69971")
-		)
-		(instances
-			(project "LoRa-device"
-				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
-					(reference "AE3")
 					(unit 1)
 				)
 			)
@@ -18178,6 +18313,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 419.1 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17a8f337-6894-41a2-88d5-75148727d8fc")
+		(property "Reference" "#PWR037"
+			(at 425.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 423.672 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 419.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 419.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f59706b-222b-43cb-85ff-59754a93110b")
+		)
+		(instances
+			(project "LoRa-device"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MaTouch 1.9“ TFT Breakout v1.1-eagle-import:5V")
 		(at 58.42 229.87 0)
 		(unit 1)
@@ -18308,84 +18508,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna_Chip")
-		(at 109.22 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bc6379d-4cb6-4dd9-b242-85a8d87c5f89")
-		(property "Reference" "AE2"
-			(at 114.3 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna"
-			(at 114.3 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal"
-			(at 106.68 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" ""
-			(at 109.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a18c2d7d-ebde-4c5a-bac2-5b11868021f1")
-		)
-		(pin "1"
-			(uuid "2f0031b0-6451-4942-8368-1dd3584ae305")
-		)
-		(instances
-			(project "LoRa-device"
-				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
-					(reference "AE2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 270.51 275.59 0)
 		(unit 1)
@@ -18510,312 +18632,6 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf, 12V, 50mA, 4.0mm")
-		(at 303.53 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e31579a-d9a6-404d-96bf-683dd69991a9")
-		(property "Reference" "Reset1"
-			(at 307.34 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Tactile Button, 160gf"
-			(at 307.34 77.47 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:SW_TS-1088-AR02016"
-			(at 303.53 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
-			(at 301.244 74.803 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Without 50mA 4mm 100MΩ 100000 Times 12V 160gf 3mm 2mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C720477"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "346801"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.044USD"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Switches,Tactile Switches"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "TS-1088-AR02016"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Switch Length" "4mm"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating (Dc)" "12V"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "With Lamp" "No"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Force" "160gf@±50gf"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Actuator/Cap Color" "Black"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mechanical Life" "100000 Times"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Strike Gundam" "NO"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Circuit" "SPST"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Switch Height" "2mm"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Actuator Style" "Round Button"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Switch Width" "3mm"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Contact Current" "50mA"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-30°C~+80°C"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Style" "Brick nogging"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Insulation Resistance" "100MΩ"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Style" "SMDSplicing"
-			(at 303.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9867bef-31ce-46ed-8c23-0ece92ad8b7c")
-		)
-		(pin "1"
-			(uuid "182f8959-f567-40c1-ab54-73c8bec0fcfa")
-		)
-		(instances
-			(project "esp32_mine"
-				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
-					(reference "Reset1")
 					(unit 1)
 				)
 			)
@@ -19060,312 +18876,6 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf, 12V, 50mA, 4.0mm")
-		(at 342.9 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "257a8230-99cb-4a63-ad32-de31aeff4f41")
-		(property "Reference" "Flash1"
-			(at 346.71 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Tactile Button, 160gf"
-			(at 346.71 85.09 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:SW_TS-1088-AR02016"
-			(at 342.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
-			(at 340.614 82.423 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Without 50mA 4mm 100MΩ 100000 Times 12V 160gf 3mm 2mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C720477"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "346801"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.044USD"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Switches,Tactile Switches"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "TS-1088-AR02016"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Switch Length" "4mm"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating (Dc)" "12V"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "With Lamp" "No"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Force" "160gf@±50gf"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Actuator/Cap Color" "Black"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mechanical Life" "100000 Times"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Strike Gundam" "NO"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Circuit" "SPST"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Switch Height" "2mm"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Actuator Style" "Round Button"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Switch Width" "3mm"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Contact Current" "50mA"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-30°C~+80°C"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Style" "Brick nogging"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Insulation Resistance" "100MΩ"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Style" "SMDSplicing"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c6b6752e-7a91-4dfb-9079-585b8e8fe114")
-		)
-		(pin "1"
-			(uuid "d15b578a-5d1b-4d86-b29c-1b84d5e3260c")
-		)
-		(instances
-			(project "esp32_mine"
-				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
-					(reference "Flash1")
 					(unit 1)
 				)
 			)
@@ -22326,7 +21836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 298.45 264.16 0)
 			(effects
 				(font
@@ -23024,71 +22534,6 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 419.1 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61a8a2c3-6abf-4817-9345-457da723dfd3")
-		(property "Reference" "#PWR064"
-			(at 425.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 423.672 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 419.1 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 419.1 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 419.1 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b6c94732-2578-4e7f-8e32-32dcf8317d3a")
-		)
-		(instances
-			(project "LoRa-device"
-				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -24526,7 +23971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical"
 			(at 43.18 29.21 0)
 			(effects
 				(font
@@ -25870,6 +25315,76 @@
 			(project ""
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 111.76 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d837d5a-b60f-459f-a24c-53983faa3bbc")
+		(property "Reference" "J3"
+			(at 115.57 68.8731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 115.57 71.4131 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal"
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f3a0bae-f279-47e3-97ac-cd220b4e9cea")
+		)
+		(pin "2"
+			(uuid "8debb447-e7b4-44a7-b7c9-aec3034e6a7c")
+		)
+		(instances
+			(project ""
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -28403,6 +27918,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x11_Pin")
+		(at 397.51 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af63c772-63a8-4590-b353-46fcc31ac6c9")
+		(property "Reference" "J7"
+			(at 398.145 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x11_Pin"
+			(at 398.145 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
+			(at 397.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 397.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x11, script generated"
+			(at 397.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "01c0e743-6d77-4210-baf4-db766a88499e")
+		)
+		(pin "5"
+			(uuid "9a6ff926-e856-4722-835f-4cd52dc6bd16")
+		)
+		(pin "9"
+			(uuid "6bf06d2e-22a6-4c88-ba99-be350a34cfd6")
+		)
+		(pin "4"
+			(uuid "c6bf5a81-03a0-4c0e-9af0-b183b71482ae")
+		)
+		(pin "3"
+			(uuid "e14b5574-35d0-4acc-a7a7-d3c351f5b23e")
+		)
+		(pin "10"
+			(uuid "b4e7994f-6468-468d-b538-ae0ea0381609")
+		)
+		(pin "11"
+			(uuid "82ca50b6-8fbc-47d9-a011-b9ae232a51a1")
+		)
+		(pin "2"
+			(uuid "de954a88-38db-4b4b-bebe-65bf90580054")
+		)
+		(pin "1"
+			(uuid "0302e28b-2f79-4b8d-beec-66bee3c9aed5")
+		)
+		(pin "6"
+			(uuid "bc70bc3d-1192-46e8-b569-9c8185f47c7d")
+		)
+		(pin "7"
+			(uuid "f755b9d3-6bd3-4372-9ab1-e7fb7bbdad36")
+		)
+		(instances
+			(project ""
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 359.41 218.44 0)
 		(unit 1)
@@ -28461,6 +28071,312 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf, 12V, 50mA, 4.0mm")
+		(at 342.9 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4e7f9de-b6cd-45a9-8cd5-bd2f075371bb")
+		(property "Reference" "FLASH1"
+			(at 346.71 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tactile Button, 160gf"
+			(at 346.71 85.09 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SW_TS-1088-AR02016"
+			(at 342.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+			(at 340.614 82.423 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Without 50mA 4mm 100MΩ 100000 Times 12V 160gf 3mm 2mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "346801"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.044USD"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Switches,Tactile Switches"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "TS-1088-AR02016"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Switch Length" "4mm"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (Dc)" "12V"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "With Lamp" "No"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Force" "160gf@±50gf"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Actuator/Cap Color" "Black"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mechanical Life" "100000 Times"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Strike Gundam" "NO"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Circuit" "SPST"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Switch Height" "2mm"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Actuator Style" "Round Button"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Switch Width" "3mm"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact Current" "50mA"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-30°C~+80°C"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Brick nogging"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Insulation Resistance" "100MΩ"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Style" "SMDSplicing"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce6763e5-e0d9-463b-8deb-26cf71b56c59")
+		)
+		(pin "1"
+			(uuid "7badc2d8-e2fe-4bc8-97d0-e7d984e14834")
+		)
+		(instances
+			(project ""
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "FLASH1")
 					(unit 1)
 				)
 			)
@@ -29238,7 +29154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 77.47 29.21 0)
 			(effects
 				(font
@@ -29843,7 +29759,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 156.21 0)
+		(at 102.87 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29851,7 +29767,7 @@
 		(dnp no)
 		(uuid "cefcf1f9-a9db-458f-9a3d-0fb58f637ba9")
 		(property "Reference" "#PWR063"
-			(at 102.87 162.56 0)
+			(at 102.87 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29860,7 +29776,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.172 155.194 0)
+			(at 106.172 159.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29868,7 +29784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 156.21 0)
+			(at 102.87 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29877,7 +29793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 156.21 0)
+			(at 102.87 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29886,7 +29802,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 156.21 0)
+			(at 102.87 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30541,6 +30457,312 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf, 12V, 50mA, 4.0mm")
+		(at 303.53 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da9ae3b3-f9d4-4621-a4db-60933789020f")
+		(property "Reference" "RESET1"
+			(at 307.34 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tactile Button, 160gf"
+			(at 307.34 77.47 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SW_TS-1088-AR02016"
+			(at 303.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+			(at 301.244 74.803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Without 50mA 4mm 100MΩ 100000 Times 12V 160gf 3mm 2mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "346801"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.044USD"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Switches,Tactile Switches"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "TS-1088-AR02016"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Switch Length" "4mm"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (Dc)" "12V"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "With Lamp" "No"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Force" "160gf@±50gf"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Actuator/Cap Color" "Black"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mechanical Life" "100000 Times"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Strike Gundam" "NO"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Circuit" "SPST"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Switch Height" "2mm"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Actuator Style" "Round Button"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Switch Width" "3mm"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact Current" "50mA"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-30°C~+80°C"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Brick nogging"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Insulation Resistance" "100MΩ"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Style" "SMDSplicing"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c94a6a8-51a7-4ea6-9654-09169bd8310d")
+		)
+		(pin "1"
+			(uuid "eff97420-1518-4343-8b29-14e94f8355c0")
+		)
+		(instances
+			(project ""
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "RESET1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 58.42 280.67 0)
 		(unit 1)
@@ -30696,7 +30918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 427.99 246.38 0)
 			(effects
 				(font
@@ -31087,6 +31309,85 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#+3V02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:RF, Connector, U.FL")
+		(at 102.87 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea681de7-967c-4e98-a920-3baa7dcb77de")
+		(property "Reference" "J5"
+			(at 105.41 152.6931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U.FL"
+			(at 105.41 155.2331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:IPEX-SMD_BWIPX-1-001E"
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208151830_BAT-WIRELESS-BWU-FL-IPEX1_C5137195.pdf"
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bf65a51-bf16-4e3f-ac68-8111a3f69f1b")
+		)
+		(pin "2"
+			(uuid "405edd36-3893-4eb7-acc6-cf20951778af")
+		)
+		(instances
+			(project ""
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "J5")
 					(unit 1)
 				)
 			)
