@@ -15293,7 +15293,7 @@
 			)
 		)
 	)
-	(global_label "IO33"
+	(global_label "IO10"
 		(shape input)
 		(at 97.79 40.64 270)
 		(fields_autoplaced yes)
@@ -17779,7 +17779,7 @@
 			)
 		)
 	)
-	(global_label "IO10"
+	(global_label "IO33"
 		(shape input)
 		(at 76.2 105.41 270)
 		(fields_autoplaced yes)
