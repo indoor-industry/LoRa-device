@@ -556,7 +556,7 @@
       "plot": "production/gerbers",
       "pos_files": "production/",
       "specctra_dsn": "",
-      "step": "LoRa-device.step",
+      "step": "Case/LoRa-device.step",
       "svg": "",
       "vrml": ""
     },
