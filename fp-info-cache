@@ -1,4 +1,4 @@
-27315707468798590
+27317478167260729
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71399,6 +71399,13 @@ GPSM-SMD_18P-L10.1-W9.7-P1.10 footprint C2916234
 0
 18
 18
+Lora-device
+Untitled
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
