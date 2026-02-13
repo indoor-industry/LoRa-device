@@ -1,4 +1,4 @@
-27317478167260729
+27319249478541120
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71386,6 +71386,13 @@ Yellow 5381 Series LED
 2
 2
 Lora-device
+BAT-SMD_CR1220-2
+BAT-SMD_CR1220-2 footprint
+BAT-SMD_CR1220-2 footprint C70381
+0
+2
+2
+Lora-device
 COMM-SMD_18P-L16.0-W16.0-P1.27-BL_RA-08H
 COMM-SMD_18P-L16.0-W16.0-P1.27-BL_RA-08H footprint
 COMM-SMD_18P-L16.0-W16.0-P1.27-BL_RA-08H footprint C2991932
@@ -71400,12 +71407,12 @@ GPSM-SMD_18P-L10.1-W9.7-P1.10 footprint C2916234
 18
 18
 Lora-device
-Untitled
-
-
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR footprint
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR footprint C136154
 0
-0
-0
+5
+5
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
